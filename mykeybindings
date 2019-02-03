@@ -1,0 +1,10 @@
+[/]
+new-tab='<Primary>t'
+prev-tab='<Primary>Left'
+new-window='<Primary>n'
+close-tab='<Primary>w'
+find='<Primary>f'
+move-tab-left='<Primary><Shift>Left'
+close-window='<Primary>d'
+move-tab-right='<Primary><Shift>Right'
+next-tab='<Primary>Right'
