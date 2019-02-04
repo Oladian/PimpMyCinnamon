@@ -1,3 +1,5 @@
+![My Cinnamon](https://i.imgur.com/mnmhl8D.png)
+
 # What is this script for?
 This script automatically configurates the way I want my Linux Mint Cinnamon to look.
 Tested on [Linux Mint Tessa Cinnamon](https://linuxmint.com/edition.php?id=261), but it should work in any distro running Cinnamon as the DE. 
