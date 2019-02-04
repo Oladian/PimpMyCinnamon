@@ -12,4 +12,6 @@ su $SUDO_USER -c "gsettings set org.cinnamon.desktop.interface gtk-theme 'Mint-Y
 su $SUDO_USER -c "gsettings set org.cinnamon.theme name 'Mint-Y-Dark-Grey'"
 su $SUDO_USER -c "gsettings set org.cinnamon.desktop.interface icon-theme 'Papirus-Dark'"
 #Load keybindings for terminal
-su $SUDO_USER -c "dconf load /org/gnome/terminal/legacy/keybindings/ < mykeybindings"
+su $SUDO_USER -c "dconf load /org/gnome/terminal/legacy/keybindings/ < resources/mykeybindings"
+#Load json with menu config (icon for menu and taskbar icons)
+cp resources/1.json ~/.cinnamon/configs/menu@cinnamon.org/1.json
