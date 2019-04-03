@@ -7,7 +7,7 @@ fi
 
 #Download and install theme and icons
 wget -P /tmp/ https://cinnamon-spices.linuxmint.com/files/themes/Adapta-Nokto.zip && unzip /tmp/Adapta-Nokto.zip -d /tmp/ && mv /tmp/Adapta-Nokto /usr/share/themes/
-wget -O /tmp/papirus.deb https://launchpad.net/~papirus/+archive/ubuntu/papirus-dev/+build/16346002/+files/papirus-icon-theme_20190202-3032+pkg21~ubuntu18.04.1_all.deb && DEBIAN_FRONTEND=noninteractive dpkg -i /tmp/papirus.deb 
+wget -qO- https://raw.githubusercontent.com/PapirusDevelopmentTeam/papirus-icon-theme/master/install.sh | sh
 #Change wallpaper solid grey
 su $SUDO_USER -c "gsettings set org.cinnamon.desktop.background primary-color '#111111111111'"
 su $SUDO_USER -c "gsettings set org.cinnamon.desktop.background picture-options 'none'"
